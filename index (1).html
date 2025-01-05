@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد گلشر کی دنیا</title>
+    <link rel="stylesheet" href="modern_style.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>محمد گلشر کی دنیا</h1>
+            <p>جہاں لفظوں سے جذبات کا رنگ بھرتا ہے</p>
+            <button id="toggleTheme">تھیم تبدیل کریں</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#poetry">شاعری</a></li>
+            <li><a href="#stories">افسانے</a></li>
+            <li><a href="#articles">مضامین</a></li>
+            <li><a href="#contact">رابطہ</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="poetry">
+            <h2>شاعری</h2>
+            <p>میرے دل کے جذبات یہاں قاری کے لیے موجود ہیں۔</p>
+        </section>
+        <section id="stories">
+            <h2>افسانے</h2>
+            <p>کہانیوں کی دنیا میں خوش آمدید، جہاں خواب حقیقت بنتے ہیں۔</p>
+        </section>
+        <section id="articles">
+            <h2>مضامین</h2>
+            <p>میرے خیالات اور نقطہ نظر کو سمجھنے کا ایک ذریعہ۔</p>
+        </section>
+        <section id="contact">
+            <h2>رابطہ</h2>
+            <p>اگر آپ مجھ سے بات کرنا چاہتے ہیں، تو نیچے معلومات حاصل کریں۔</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 محمد گلشر. تمام حقوق محفوظ ہیں۔</p>
+    </footer>
+    <script>
+        // JavaScript for toggling between light and dark themes
+        const toggleTheme = document.getElementById('toggleTheme');
+        toggleTheme.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
